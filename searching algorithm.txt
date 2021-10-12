@@ -1,0 +1,70 @@
+Searching Algorithms :
+
+
+1.Linear Search also known as Sequential Search
+2.Binary Search also known as Interval Search
+3.Jump Search
+4.Interpolation Search
+5.Exponential Search
+6.Sublist Search (Search a linked list in another list)
+7.Fibonacci Search
+8.The Ubiquitous Binary Search
+9.Recursive program to linearly search an element in a given array
+10.Recursive function to do substring search
+11.Unbounded Binary Search Example (Find the point where a monotonically increasing function becomes positive first time)
+
+In searching algorithm index starts from 0
+and position starts from 1.
+
+1. Linear Search
+
+
+ In linear search values may be or may not be sorted.
+  for(i=0;i<a.length;i++)
+logic for writing codes
+   {
+      if(arr[i]==item)
+       {
+         System.out.println("element is present at" + i+ "index position")
+       }
+   }
+
+class LinearSrchInteger
+  {
+    public static void main(String[] args)
+     {
+       int[] arr= {5,3,6,2,9,1};          tip-(the array or numbers we called as a arr) 
+         int item=1;                     Tip-( 1 is stored in a variable called item)
+           for(int i=0;i<arr.length; i++)
+            {
+              if(arr[i]==item)
+                  {
+                        System.out.println("item is present at" + i + "index position")
+                        }
+                   }
+             }
+         }
+
+
+
+2. Binary Search
+  In Binary Search values must be sorted.
+
+middle value= (lower bound+ upper bound)/2
+ while(li<=hi)
+{
+if(a[mi]==item)
+{
+System.out.println("item is at"+mi + "index position");
+}
+else if(a[mi]<item)
+{
+li=mi+1;
+}
+else
+{
+hi=mi+1;
+}
+mi=(li+hi)/2
+}
+ 
