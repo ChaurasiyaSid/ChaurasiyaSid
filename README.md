@@ -1,11 +1,1 @@
-Hello Everyone,
-- Myself- Siddharth Chaurasiya
-- Hometown- Gopalganj, Bihar
-- Degree- Graduation in Bachelor in Computer Science
-- College- MIT- World Peace University, Pune
-- Passout- 2021
-- Overgall CGPA= 9.2
-- 🌱 I’m currently learning Full Stack Developer
-- 📫 How to reach me: 
-- Phone Number-7909030228
-- Email id- sidch258@gmail.com
+
